@@ -33,6 +33,7 @@ html, body {
 }
 
 .nav-link {
+    color: white;
     text-decoration: none;
     font-weight: bold;
     padding-left: 20px;

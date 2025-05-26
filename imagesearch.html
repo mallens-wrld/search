@@ -1,29 +1,28 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <title>Search</title>
+        <title>Image Search</title>
         <link rel="stylesheet" href="style.css">
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
     </head>
     <body>
         <div class="header row">
-            <a class="nav-link" href="imagesearch.html">Image Search</a>
+            <a class="nav-link" href="index.html">Search</a>
             <a class="nav-link" href="advancedsearch.html">Advanced Search</a>
         </div>
 
         <div class="main">
-        <h1>Rick Search</h1>
+        <h1>Rick Image Search</h1>
         <img src="https://media1.tenor.com/m/yheo1GGu3FwAAAAd/rick-roll-rick-ashley.gif" alt="Rick Roll" class="rick-roll-gif">
         <h3>Google but with Rick Roll mode</h3>
         <form action="https://www.google.com/search">
             <input type="text" name="q" class="search-box" placeholder="Search for something...">
             <p></p>
             <div class="row">
+                <input hidden name="udm" value="2">
                 <input class="search-button" type="submit" value="Google Search">
-                <input class="search-button" type="submit" value="I'm Feeling Lucky"
-                formaction="https://doodles.google/">
-                <a class="search-button" href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">Rick Roll Me</a>
+                <a class="search-button" href="https://www.google.com/search?q=Rick+Roll&udm=2">Rick Roll Me</a>
             </div>
         </form>
     </div>
