@@ -25,6 +25,27 @@ html, body {
     text-align: center;
 }
 
+.column {
+    display: flex;
+
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+}
+
+.full-width {
+    width: 100%;
+}
+
+.row-hard {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+}
+
 .header {
     font-size: 1.2rem;
     margin: 20px;
@@ -88,4 +109,12 @@ h3 {
     max-width: 200px;
     height: auto;
     margin-top: 20px;
+}
+
+.row > * {
+    margin: 0 10px 0 10px;
+}
+
+.row > .rick-roll-gif {
+    max-width: 100px;
 }
