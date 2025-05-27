@@ -20,24 +20,74 @@
         <h3>Google but with Rick Roll mode</h3>
         <div class="column full-width">
 
+            <form class="full-width" action="https://www.google.com/search">
+
             <!-- Row for advanced search options -->
-            <div class="row-hard advanced">
+            <div class="row-hard advanced margin">
+
                 <div class="column full-width">
-                
-                    <form class="advanced-form full-width" action="https://www.google.com/search">
-                        <div class="row-hard advanced h-spacing-elements">
-                            <p>All these words...</p>
-                            <input type="text" name="q" class="search-box full-width" placeholder="Search for something...">
-                        </div>
-                    </form>
-                </div>  
+                    <div class="row-hard advanced h-spacing-elements">
+                        <p>All these words...</p>
+                        <input type="text" name="as_q" class="search-box full-width" placeholder="All these words...">
+                    </div>
+                </div>      
 
                 <div class="column full-width h-spacing-elements">
-                    <p>These words</p>
+                    <p>Type the important words: tri-colour rat terrier</p>
                 </div>
             </div>
 
-            
+            <!-- 2nd row -->
+             <div class="row-hard advanced margin">
+
+                <div class="column full-width">            
+                    <div class="row-hard advanced h-spacing-elements">
+                        <p>This exact phrase</p>
+                        <input type="text" name="as_epq" class="search-box full-width" placeholder="This exact phrase">
+                    </div>
+                </div>  
+
+                <div class="column full-width h-spacing-elements">
+                    <p>Put exact words in quotes: "rat terrier"</p>
+                </div>
+            </div>
+
+            <!-- 3rd row -->
+            <div class="row-hard advanced margin">
+
+                <div class="column full-width">            
+                    <div class="row-hard advanced h-spacing-elements">
+                        <p>Any of these words</p>
+                        <input type="text" name="as_oq" class="search-box full-width" placeholder="This exact phrase">
+                    </div>
+                </div>  
+
+                <div class="column full-width h-spacing-elements">
+                    <p>Type OR between all the words you want: miniature OR standard</p>
+                </div>
+            </div>
+
+            <!-- 4th row -->
+            <div class="row-hard advanced margin">
+
+                <div class="column full-width">            
+                    <div class="row-hard advanced h-spacing-elements">
+                        <p>None of these words</p>
+                        <input type="text" name="as_eq" class="search-box full-width" placeholder="None of these words">
+                    </div>
+                </div>  
+
+                <div class="column full-width h-spacing-elements">
+                    <p>Type - before the word you want to exclude: -dachshund</p>
+                </div>            
+            </div>
+
+            <!-- 5th row -->
+             <div class="row-hard advanced margin justify-center">
+                <input type="submit" value="Search" class="search-button">     
+            </div>          
+        </form>
+
 
         </div>
     </div>

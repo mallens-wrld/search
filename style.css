@@ -88,6 +88,7 @@ html, body {
     margin: 0 5px 10px 5px;
     text-decoration: none;
     font-size: 0.9rem;
+    text-align: center;
 }
 
 .search-button:hover {
@@ -130,4 +131,12 @@ h3 {
 
 .h-spacing-elements > * {
     margin: 0 10px 0 10px;
+}
+
+.margin {
+    margin: 20px;
+}
+
+.justify-center {
+    justify-content: center;
 }
